@@ -67,7 +67,7 @@ def script():
                     resized_img.save("copy.png")
                     print("executed")
                 else:
-                    print("Thank You")
+                    print("Thank You ")
         elif re=='2':
             for file in glob.glob("*.jpg"):
                 print("Image selecetd is =",file)
